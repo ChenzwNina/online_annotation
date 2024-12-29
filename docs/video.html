@@ -250,15 +250,14 @@
                 })
             });
 
-            if (JSON.stringify(response) != "{}") {
-                console.error(`HTTP Error: ${response.status}`);
-                return scene; // Return empty scene for HTTP errors
+            const data_text = await response.text();
+            if (!data_text || data_text.trim() === "") {
+                console.log("Empty response body.");
+                return scene; // Return scene without further processing
             }
 
-            console.log("Response: ", JSON.stringify(response));
-            const data = await response.json();
+            const data = JSON.parse(data_text);
             console.log("Raw Response Body:", data);
-
 
             const severity_level = data.severity; // Severity is a string
 
