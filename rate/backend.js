@@ -126,6 +126,7 @@ async function handleGetComment(request) {
         console.log("Value found in KV for the given image index");
         return new Response(JSON.stringify(value), normalHeader);
     }
+}
 
 
 async function handleUpload(request) {
