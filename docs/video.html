@@ -191,11 +191,15 @@
 
         async function fetchVideoData() {
             const response = await fetch('/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/Results/widget_data.json');
-            return await response.json();
+                
+            if (response) {
+                console.log("Fetch succeeded")
+                return await response.json();}
         }
 
         function getQueryParameter(name) {
             const urlParams = new URLSearchParams(window.location.search);
+            console.log(urlParams.get(name));
             return urlParams.get(name);
         }
 
@@ -266,6 +270,7 @@
 
         async function showScene() {
             const videoData = await fetchVideoData();
+            console
             const videoIndex = getQueryParameter('videoIndex');
             const videoScenes = document.getElementById('video-scenes');
             videoScenes.innerHTML = '';
