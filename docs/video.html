@@ -193,7 +193,7 @@
             const response = await fetch('widget_data.json');
                 
             if (response) {
-                console.log("Fetch succeeded")
+                console.log("Data JSON fetch succeeded")
                 return await response.json();}
         }
 
@@ -297,7 +297,6 @@
             const comparison = document.querySelector('input[name="severity"]:checked');
 
             const data = {
-                image: videoSource.screenshot_location,
                 dark_pattern_type: dark_pattern_type ? dark_pattern_type.value : null,
                 severity: severity ? severity.value : null,
             };

@@ -119,8 +119,10 @@ async function handleGetComment(request) {
     
     const value = await kvNamespace.get(key);
 
-    if(value == null) 
-    return new Response("Not available", NotAvailableHeader);
+    if(value == null) {
+    console.log("No value found in KV for the given image index");
+    return;
+    }   
 
     return new Response(JSON.stringify(value), normalHeader);
 }
