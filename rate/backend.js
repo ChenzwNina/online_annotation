@@ -120,12 +120,12 @@ async function handleGetComment(request) {
     const value = await kvNamespace.get(key);
 
     if(value == null) {
-    console.log("No value found in KV for the given image index");
-    return;
-    }   
-
-    return new Response(JSON.stringify(value), normalHeader);
-}
+        console.log("No value found in KV for the given image index");
+        return new Response("", normalHeader);
+    } else{
+        console.log("Value found in KV for the given image index");
+        return new Response(JSON.stringify(value), normalHeader);
+    }
 
 
 async function handleUpload(request) {
