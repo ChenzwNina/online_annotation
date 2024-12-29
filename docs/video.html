@@ -250,7 +250,7 @@
                 })
             });
 
-            if (!response.ok) {
+            if (JSON.stringify(response) != "{}") {
                 console.error(`HTTP Error: ${response.status}`);
                 return scene; // Return empty scene for HTTP errors
             }
