@@ -160,13 +160,19 @@
     </div>
 
     <script>
+        // Uncheck dark pattern checkboxes when "not sure" or "not dark pattern" is selected
         function uncheckifSelected(){
-            const notdarkpatternRadio = document.querySelector(`input[name="dark_pattern_type"][value="${not-dark-pattern}"]`);
-            const notsureRadio = document.querySelector(`input[name="dark_pattern_type"][value="${not-sure}"]`);
+            const notdarkpatternRadio = document.querySelector(`input[name="dark_pattern_type"][value="not-dark-pattern"]`);
+            const notsureRadio = document.querySelector(`input[name="dark_pattern_type"][value="not-sure"]`);
             if (notdarkpatternRadio.checked || notsureRadio.checked){
                 document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
                     checkbox.checked = false;})
             }
+        
+        // Attach the event listener to radio buttons
+        document.querySelectorAll('input[name="dark_pattern_type"][type="radio"]').forEach((radio) => {
+            radio.addEventListener("change", uncheckifSelected);
+        });
 
         }
         async function fetchVideoData() {
