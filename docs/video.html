@@ -151,7 +151,7 @@
                 </label>
             </div>
             <div>
-                <label for="center1">
+                <label for="severe_1s">
                     <input type="radio" name="severity" id="severe_1" value="severe_1">
                     Not severe (2)
                 </label>
@@ -160,6 +160,15 @@
     </div>
 
     <script>
+        function uncheckifSelected(){
+            const notdarkpatternRadio = document.querySelector(`input[name="dark_pattern_type"][value="${not-dark-pattern}"]`);
+            const notsureRadio = document.querySelector(`input[name="dark_pattern_type"][value="${not-sure}"]`);
+            if (notdarkpatternRadio.checked || notsureRadio.checked){
+                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
+                    checkbox.checked = false;})
+            }
+
+        }
         async function fetchVideoData() {
             const response = await fetch('/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/widget_data.json');
             return await response.json();
