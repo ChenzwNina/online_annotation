@@ -160,20 +160,34 @@
     </div>
 
     <script>
-        // Uncheck dark pattern checkboxes when "not sure" or "not dark pattern" is selected
-        function uncheckifSelected(){
-            const notdarkpatternRadio = document.querySelector(`input[name="dark_pattern_type"][value="not-dark-pattern"]`);
-            const notsureRadio = document.querySelector(`input[name="dark_pattern_type"][value="not-sure"]`);
-            if (notdarkpatternRadio.checked || notsureRadio.checked){
-                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
-                    checkbox.checked = false;})
-            }
+        // Select all checkboxes and radio buttons
+        const allTypeCheckboxes = document.querySelectorAll('input[name="dark_pattern_type"][type="checkbox"]');
+        const allTypeRadios = document.querySelectorAll('input[name="dark_pattern_type"][type="radio"]');
+
+        // Function to uncheck radio buttons when a checkbox is selected
+        function uncheckRadios() {
+            allTypeRadios.forEach((radio) => {
+                radio.checked = false; // Uncheck all radio buttons
+            });
         }
-        
-        // Attach the event listener to radio buttons
-        document.querySelectorAll('input[name="dark_pattern_type"][type="radio"]').forEach((radio) => {
-            radio.addEventListener("change", uncheckifSelected);
+
+        // Function to uncheck checkboxes when a radio button is selected
+        function uncheckcheckBox() {
+            allTypeCheckboxes.forEach((checkbox) => {
+            checkbox.checked = false; // Uncheck all checkboxes
         });
+        }
+
+        // Add event listeners to all checkboxes
+        allTypeCheckboxes.forEach((checkbox) => {
+        checkbox.addEventListener("change", uncheckRadios);
+        });
+
+        // Add event listeners to all radio buttons
+        allTypeRadios.forEach((radio) => {
+        radio.addEventListener("change", uncheckcheckBox);
+        });
+
 
         async function fetchVideoData() {
             const response = await fetch('/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/widget_data.json');
