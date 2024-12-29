@@ -153,7 +153,7 @@
             <div>
                 <label for="severe_1s">
                     <input type="radio" name="severity" id="severe_1" value="severe_1">
-                    Not severe (2)
+                    Not severe (1)
                 </label>
             </div>
         <button id="next-button">Next</button>
@@ -168,13 +168,13 @@
                 document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
                     checkbox.checked = false;})
             }
+        }
         
         // Attach the event listener to radio buttons
         document.querySelectorAll('input[name="dark_pattern_type"][type="radio"]').forEach((radio) => {
             radio.addEventListener("change", uncheckifSelected);
         });
 
-        }
         async function fetchVideoData() {
             const response = await fetch('/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/widget_data.json');
             return await response.json();
