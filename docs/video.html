@@ -289,7 +289,7 @@
 
         async function showScene() {
             const videoData = await fetchVideoData();
-            console.log("Video Data: " + JSON.stringify(videoData));
+            console.log("Video Data:" + JSON.stringify(videoData));
             const videoIndex = getQueryParameter('videoIndex');
             const videoScenes = document.getElementById('video-scenes');
             videoScenes.innerHTML = '';
