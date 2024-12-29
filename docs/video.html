@@ -289,13 +289,13 @@
 
         async function showScene() {
             const videoData = await fetchVideoData();
-            console.log("Video Data : "+ videoData)
+            console.log("Video Data: " + JSON.stringify(videoData));
             const videoIndex = getQueryParameter('videoIndex');
             const videoScenes = document.getElementById('video-scenes');
             videoScenes.innerHTML = '';
 
             if (videoIndex !== null && videoIndex < videoData.length && videoIndex >= 0) {
-                console.log("Video Data[index]: "+ videoData[videoIndex])
+                console.log("Video Data[index]: "+ JSON.stringify(videoData[videoIndex]));
                 const scene = await createVideoScene(videoData[videoIndex]);
                 videoSource = videoData[videoIndex];
                 videoScenes.appendChild(scene);
