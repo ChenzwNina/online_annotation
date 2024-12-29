@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Widget Annotation</title>
     <style>
-        .video-container {
-            display: flex;
-            justify-content: space-around;
-            align-items: start;
-            margin-bottom: 20px;
+        /* Create two columns */
+        .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        }
+
+        /* Each column */
+        .column {
+            flex: 1;
+            max-width: 50%; 
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto; /* Ensure the image scales properly */
         }
 
         .controls {
@@ -22,141 +34,153 @@
         .hidden {
             display: none;
         }
+
+        button {
+            margin-top: 20px;
+        }
     </style>
 </head>
 
 <body>
-    <div id="video-scenes">
-        <!-- Video scenes will be dynamically inserted here -->
+    <div class="container">
+        <div id="column">
+            <div id="video-scenes">
+                <!-- Video scenes will be dynamically inserted here -->
+            </div>
+        </div>
+
     </div>
-    <div class="controls">
-        <button id="prev-button">Previous</button>
-        <div>
-            <label>Dark Pattern Type</label>
-            <div>
-                <thread> 
-                    <p> Sneaking </p>
-                <tbody>
-                    <label for="sneak-into-basket">
-                        <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
-                        Sneak into Basket
-                    </label>
-                    <label for="hidden-costs">
-                        <input type="checkbox" name="dark_pattern_type" id="hidden-costs" value ="hidden-costs">
-                        Hidden Costs
-                    </label>
-                    <label for="hidden-subscription">
-                        <input type="checkbox" name="dark_pattern_type" id="hidden-subscription" value ="hidden-subscription">
-                        Hidden Subscription
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Urgency </p>
-                <tbody>
-                    <label for="countdown-timer">
-                        <input type="checkbox" name="dark_pattern_type" id="countdown-timer" value ="countdown-timer">
-                        Countdown Timer
-                    </label>
-                    <label for="limited-time-message">
-                        <input type="checkbox" name="dark_pattern_type" id="limited-time-message" value ="limited-time-message">
-                        Limited-time Message
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Misdirection </p>
-                <tbody>
-                    <label for="confirmshaming">
-                        <input type="checkbox" name="dark_pattern_type" id="confirmshaming" value ="confirmshaming">
-                        Confirmshaming
-                    </label>
-                    <label for="visual-interference">
-                        <input type="checkbox" name="dark_pattern_type" id="visual-interference" value ="visual-interference">
-                        Visual Interference
-                    </label>
-                    <label for="trick-questions">
-                        <input type="checkbox" name="dark_pattern_type" id="trick-questions" value ="trick-questions">
-                        Trick Questions
-                    </label>
-                    <label for="pressured-selling">
-                        <input type="checkbox" name="dark_pattern_type" id="pressured-selling" value ="pressured-selling">
-                        Pressured Selling
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Social Proof </p>
-                <tbody>
-                    <label for="acitvity-message">
-                        <input type="checkbox" name="dark_pattern_type" id="acitvity-message" value ="acitvity-message">
-                        Activity Message
-                    </label>
-                    <label for="testimonials">
-                        <input type="checkbox" name="dark_pattern_type" id="testimonials" value ="testimonials">
-                        Testimonials
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Scarcity</p>
-                <tbody>
-                    <label for="low-stock-message">
-                        <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
-                        Low-stock Message
-                    </label>
-                    <label for="high-demand-message">
-                        <input type="checkbox" name="dark_pattern_type" id="high-demand-message" value ="high-demand-message">
-                        High-demand Message
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Obstruction</p>
-                <tbody>
-                    <label for="hard-to-cancel">
-                        <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
-                        Hard to Cancel
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Forced Action</p>
-                <tbody>
-                    <label for="forced-enrollment">
-                        <input type="checkbox" name="dark_pattern_type" id="forced-enrollment" value ="forced-enrollment">
-                        Forced Enrollment
-                    </label>
-                </tbody>
-                <thread> 
-                    <p> Other</p>
-                <tbody>
-                    <label for="not-dark-pattern">
-                        <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
-                        Not a Dark Pattern
-                    </label>
-                    <label for="not-sure">
-                        <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
-                        Not Sure
-                    </label>
-                </tbody>
+        <div id="column">
+            <div class="controls">
+                <button id="prev-button">Previous</button>
+                <div>
+                    <label>Dark Pattern Type</label>
+                    <div>
+                        <thread> 
+                            <p> Sneaking </p>
+                        <tbody>
+                            <label for="sneak-into-basket">
+                                <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
+                                Sneak into Basket
+                            </label>
+                            <label for="hidden-costs">
+                                <input type="checkbox" name="dark_pattern_type" id="hidden-costs" value ="hidden-costs">
+                                Hidden Costs
+                            </label>
+                            <label for="hidden-subscription">
+                                <input type="checkbox" name="dark_pattern_type" id="hidden-subscription" value ="hidden-subscription">
+                                Hidden Subscription
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Urgency </p>
+                        <tbody>
+                            <label for="countdown-timer">
+                                <input type="checkbox" name="dark_pattern_type" id="countdown-timer" value ="countdown-timer">
+                                Countdown Timer
+                            </label>
+                            <label for="limited-time-message">
+                                <input type="checkbox" name="dark_pattern_type" id="limited-time-message" value ="limited-time-message">
+                                Limited-time Message
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Misdirection </p>
+                        <tbody>
+                            <label for="confirmshaming">
+                                <input type="checkbox" name="dark_pattern_type" id="confirmshaming" value ="confirmshaming">
+                                Confirmshaming
+                            </label>
+                            <label for="visual-interference">
+                                <input type="checkbox" name="dark_pattern_type" id="visual-interference" value ="visual-interference">
+                                Visual Interference
+                            </label>
+                            <label for="trick-questions">
+                                <input type="checkbox" name="dark_pattern_type" id="trick-questions" value ="trick-questions">
+                                Trick Questions
+                            </label>
+                            <label for="pressured-selling">
+                                <input type="checkbox" name="dark_pattern_type" id="pressured-selling" value ="pressured-selling">
+                                Pressured Selling
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Social Proof </p>
+                        <tbody>
+                            <label for="acitvity-message">
+                                <input type="checkbox" name="dark_pattern_type" id="acitvity-message" value ="acitvity-message">
+                                Activity Message
+                            </label>
+                            <label for="testimonials">
+                                <input type="checkbox" name="dark_pattern_type" id="testimonials" value ="testimonials">
+                                Testimonials
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Scarcity</p>
+                        <tbody>
+                            <label for="low-stock-message">
+                                <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
+                                Low-stock Message
+                            </label>
+                            <label for="high-demand-message">
+                                <input type="checkbox" name="dark_pattern_type" id="high-demand-message" value ="high-demand-message">
+                                High-demand Message
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Obstruction</p>
+                        <tbody>
+                            <label for="hard-to-cancel">
+                                <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
+                                Hard to Cancel
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Forced Action</p>
+                        <tbody>
+                            <label for="forced-enrollment">
+                                <input type="checkbox" name="dark_pattern_type" id="forced-enrollment" value ="forced-enrollment">
+                                Forced Enrollment
+                            </label>
+                        </tbody>
+                        <thread> 
+                            <p> Other</p>
+                        <tbody>
+                            <label for="not-dark-pattern">
+                                <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
+                                Not a Dark Pattern
+                            </label>
+                            <label for="not-sure">
+                                <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
+                                Not Sure
+                            </label>
+                        </tbody>
+                    </div>
+        
+                <div>
+                    <label>Dark Pattern Severity</label>
+                    <div>
+                        <label for="severe_3">
+                            <input type="radio" name="severity" id="severe_3" value="severe_3">
+                            Very severe (3)
+                        </label>
+                    </div>
+                    <div>
+                        <label for="severe_2">
+                            <input type="radio" name="severity" id="severe_2" value="severe_2">
+                            A little severe (2)
+                        </label>
+                    </div>
+                    <div>
+                        <label for="severe_1s">
+                            <input type="radio" name="severity" id="severe_1" value="severe_1">
+                            Not severe (1)
+                        </label>
+                    </div>
+                <button id="next-button">Next</button>
             </div>
- 
-        <div>
-            <label>Dark Pattern Severity</label>
-            <div>
-                <label for="severe_3">
-                    <input type="radio" name="severity" id="severe_3" value="severe_3">
-                    Very severe (3)
-                </label>
-            </div>
-            <div>
-                <label for="severe_2">
-                    <input type="radio" name="severity" id="severe_2" value="severe_2">
-                    A little severe (2)
-                </label>
-            </div>
-            <div>
-                <label for="severe_1s">
-                    <input type="radio" name="severity" id="severe_1" value="severe_1">
-                    Not severe (1)
-                </label>
-            </div>
-        <button id="next-button">Next</button>
+        </div>
     </div>
 
     <script>
@@ -222,18 +246,12 @@
 
             const severity_level = data.severity; // Severity is a string
 
-            if (!severity_level) {
-            return; // No severity value stored, do nothing
-            } else {
+            if (severity_level) {
                 const severityRadio = document.querySelector(`input[name="severity"][value="${severity_level}"]`); //Get severity data
                 severityRadio.checked = true; // Set the radio button as checked
             }
 
             const type = data.dark_pattern_type; // Type is an array or a single string
-
-            if (!type) {
-            return; // No dark pattern type value stored, do nothing
-            }
 
             if (type === 'not-dark-pattern') {
                 // Check not dark pattern radio box
@@ -258,11 +276,11 @@
                 })
                 }
             
-            scene.className = 'video-container';
+            scene.className = 'column';
             scene.innerHTML = `
             <div>
                 <p><strong>Widget</strong></p>
-                <img alt="design_screenshot sizes="print 73px,117px" src="${videoPair.screenshot_location}" id="screenshot_image">
+                <img alt="design_screenshot sizes="print 73px,117px" src="${videoPair.screenshot_location}">
             </div>
             `;
             return scene;
