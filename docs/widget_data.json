@@ -1,0 +1,14 @@
+[
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 1,
+        "screenshot_location": "/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/Results/Baseline_System/screenshot/des1_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 2,
+        "screenshot_location": "/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/Results/Baseline_System/screenshot/des2_wid1.png"
+    }
+]
