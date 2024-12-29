@@ -36,7 +36,14 @@
         }
 
         button {
-            margin-top: 20px;
+            padding: 10px 20px; /* Optional: Add padding for better appearance */
+            font-size: 16px; /* Optional: Adjust font size */
+        }
+
+        .button-container{
+            display: flex; /* Use Flexbox to align buttons in a row */
+            gap: 10px; /* Optional: Add space between buttons */
+            justify-content: flex-start; /* Align buttons to the left (default) */
         }
     </style>
 </head>
@@ -52,7 +59,6 @@
     </div>
         <div id="column">
             <div class="controls">
-                <button id="prev-button">Previous</button>
                 <div>
                     <label>Dark Pattern Type</label>
                     <div>
@@ -178,7 +184,10 @@
                             Not severe (1)
                         </label>
                     </div>
-                <button id="next-button">Next</button>
+                <div class = "button-container">
+                    <button id="prev-button">Previous</button>
+                    <button id="next-button">Next</button>
+                </div>
             </div>
         </div>
     </div>
@@ -318,8 +327,8 @@
             const urlParams = new URLSearchParams(window.location.search);
             const videoIndex = urlParams.get('videoIndex');
 
-            const position = document.querySelector('input[name="dark_pattern_type"]:checked');
-            const comparison = document.querySelector('input[name="severity"]:checked');
+            const dark_pattern_type = document.querySelector('input[name="dark_pattern_type"]:checked');
+            const severity = document.querySelector('input[name="severity"]:checked');
 
             const data = {
                 dark_pattern_type: dark_pattern_type ? dark_pattern_type.value : null,
