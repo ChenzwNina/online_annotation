@@ -97,16 +97,17 @@ async function handlePutComment(request) {
     if (request.method !== "POST") {
         return new Response("Method Not Allowed", NotAvailableHeader);
     }
-    const { key, value } = await request.json();
+    const { key, rater, value } = await request.json();
     
 
     // Store applicant data in KV storage
     await kvNamespace.put(key, JSON.stringify({
       "time": getTime(),
+      "rater": rater,
       "value": value
     }));
 
-    return new Response(JSON.stringify({ "msg": 'data uploaded successfully', key, value }), normalHeader);
+    return new Response(JSON.stringify({ "msg": 'Annotation uploaded successfully for screenshot', key}), normalHeader);
 }
 
 async function handleGetComment(request) {
@@ -130,18 +131,17 @@ async function handleUpload(request) {
     if (request.method !== "POST") {
         return new Response("Method Not Allowed", NotAvailableHeader);
     }
-    const { key, value, index, rater } = await request.json();
+    const { key, index, rater } = await request.json();
     
 
     // Store applicant data in KV storage
     await kvNamespace.put(rater+":"+key, JSON.stringify({
       "time": getTime(),
-      "value": value
-    }), {
-        metadata: { index: index, rater: rater },
-      });
+      "index": index,
+      "rater": rater
+    }));
 
-    return new Response(JSON.stringify({ "msg": 'data uploaded successfully', key, value }), normalHeader);
+    return new Response(JSON.stringify({ "msg": 'Annotation progress saved for screenshot', index }), normalHeader);
 }
 
 async function handleGet(request) {

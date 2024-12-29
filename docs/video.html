@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Comparison</title>
+    <title>Web Widget Annotation</title>
     <style>
         .video-container {
             display: flex;
@@ -22,32 +22,6 @@
         .hidden {
             display: none;
         }
-
-        .transcript-container {
-            display: flex;
-            justify-content: space-between;
-        }
-
-        .transcript-box {
-            width: 96%;
-            overflow: auto;
-            border: 1px solid #ccc;
-            padding: 10px;
-            box-sizing: border-box;
-        }
-
-        #long-transcript,
-        #short-transcript {
-            height: 30vh;
-        }
-
-        #short-transcript {
-            height: auto;
-        }
-
-        .transcript-box {
-            height: 30vh;
-        }
     </style>
 </head>
 
@@ -58,108 +32,136 @@
     <div class="controls">
         <button id="prev-button">Previous</button>
         <div>
-            <label>Long Position:</label>
+            <label>Dark Pattern Type</label>
             <div>
-                <label for="far-left">
-                    <input type="radio" id="far-left" name="position" value="far-left">
-                    Far Left
-                </label>
+                <thread> 
+                    <p> Sneaking </p>
+                <tbody>
+                    <label for="sneak-into-basket">
+                        <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
+                        Sneak into Basket
+                    </label>
+                    <label for="hidden-costs">
+                        <input type="checkbox" name="dark_pattern_type" id="hidden-costs" value ="hidden-costs">
+                        Hidden Costs
+                    </label>
+                    <label for="hidden-subscription">
+                        <input type="checkbox" name="dark_pattern_type" id="hidden-subscription" value ="hidden-subscription">
+                        Hidden Subscription
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Urgency </p>
+                <tbody>
+                    <label for="countdown-timer">
+                        <input type="checkbox" name="dark_pattern_type" id="countdown-timer" value ="countdown-timer">
+                        Countdown Timer
+                    </label>
+                    <label for="limited-time-message">
+                        <input type="checkbox" name="dark_pattern_type" id="limited-time-message" value ="limited-time-message">
+                        Limited-time Message
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Misdirection </p>
+                <tbody>
+                    <label for="confirmshaming">
+                        <input type="checkbox" name="dark_pattern_type" id="confirmshaming" value ="confirmshaming">
+                        Confirmshaming
+                    </label>
+                    <label for="visual-interference">
+                        <input type="checkbox" name="dark_pattern_type" id="visual-interference" value ="visual-interference">
+                        Visual Interference
+                    </label>
+                    <label for="trick-questions">
+                        <input type="checkbox" name="dark_pattern_type" id="trick-questions" value ="trick-questions">
+                        Trick Questions
+                    </label>
+                    <label for="pressured-selling">
+                        <input type="checkbox" name="dark_pattern_type" id="pressured-selling" value ="pressured-selling">
+                        Pressured Selling
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Social Proof </p>
+                <tbody>
+                    <label for="acitvity-message">
+                        <input type="checkbox" name="dark_pattern_type" id="acitvity-message" value ="acitvity-message">
+                        Activity Message
+                    </label>
+                    <label for="testimonials">
+                        <input type="checkbox" name="dark_pattern_type" id="testimonials" value ="testimonials">
+                        Testimonials
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Scarcity</p>
+                <tbody>
+                    <label for="low-stock-message">
+                        <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
+                        Low-stock Message
+                    </label>
+                    <label for="high-demand-message">
+                        <input type="checkbox" name="dark_pattern_type" id="high-demand-message" value ="high-demand-message">
+                        High-demand Message
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Obstruction</p>
+                <tbody>
+                    <label for="hard-to-cancel">
+                        <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
+                        Hard to Cancel
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Forced Action</p>
+                <tbody>
+                    <label for="forced-enrollment">
+                        <input type="checkbox" name="dark_pattern_type" id="forced-enrollment" value ="forced-enrollment">
+                        Forced Enrollment
+                    </label>
+                </tbody>
+                <thread> 
+                    <p> Other</p>
+                <tbody>
+                    <label for="not-dark-pattern">
+                        <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
+                        Not a Dark Pattern
+                    </label>
+                    <label for="not-sure">
+                        <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
+                        Not Sure
+                    </label>
+                </tbody>
             </div>
-            <div>
-                <label for="left">
-                    <input type="radio" id="left" name="position" value="left">
-                    Left
-                </label>
-            </div>
-            <div>
-                <label for="center">
-                    <input type="radio" id="center" name="position" value="center">
-                    Center
-                </label>
-            </div>
-            <div>
-                <label for="right">
-                    <input type="radio" id="right" name="position" value="right">
-                    Right
-                </label>
-            </div>
-            <div>
-                <label for="far-right">
-                    <input type="radio" id="far-right" name="position" value="far-right">
-                    Far Right
-                </label>
-            </div>
-        </div>
+ 
         <div>
-            <label>Long Comparison:</label>
+            <label>Dark Pattern Severity</label>
             <div>
-                <label for="a-vs-b">
-                    <input type="radio" id="a-vs-b" name="comparison" value="Political">
-                    Political
+                <label for="severe_3">
+                    <input type="radio" name="severity" id="severe_3" value="severe_3">
+                    Very severe (3)
                 </label>
             </div>
             <div>
-                <label for="b-vs-a">
-                    <input type="radio" id="b-vs-a" name="comparison" value="No">
-                    Not Political
-                </label>
-            </div>
-        </div>
-
-        <div>
-            <label>Short Position:</label>
-            <div>
-                <label for="far-left1">
-                    <input type="radio" id="far-left1" name="position-1" value="far-left">
-                    Far Left
-                </label>
-            </div>
-            <div>
-                <label for="left1">
-                    <input type="radio" id="left1" name="position-1" value="left">
-                    Left
+                <label for="severe_2">
+                    <input type="radio" name="severity" id="severe_2" value="severe_2">
+                    A little severe (2)
                 </label>
             </div>
             <div>
                 <label for="center1">
-                    <input type="radio" id="center1" name="position-1" value="center">
-                    Center
+                    <input type="radio" name="severity" id="severe_1" value="severe_1">
+                    Not severe (2)
                 </label>
             </div>
-            <div>
-                <label for="right1">
-                    <input type="radio" id="right1" name="position-1" value="right">
-                    Right
-                </label>
-            </div>
-            <div>
-                <label for="far-right1">
-                    <input type="radio" id="far-right1" name="position-1" value="far-right">
-                    Far Right
-                </label>
-            </div>
-        </div>
-        <div>
-            <label>Short Comparison:</label>
-            <div>
-                <label for="a-vs-b1">
-                    <input type="radio" id="a-vs-b1" name="comparison-1" value="Political">
-                    Political
-                </label>
-            </div>
-            <div>
-                <label for="b-vs-a1">
-                    <input type="radio" id="b-vs-a1" name="comparison-1" value="No">
-                    Not Political
-                </label>
-            </div>
-        </div>
         <button id="next-button">Next</button>
     </div>
 
     <script>
         async function fetchVideoData() {
-            const response = await fetch('selectedSeed.json');
+            const response = await fetch('/Users/ninachen/Documents/GitHub/dark-pattern-audit/Widget_Generate/widget_data.json');
             return await response.json();
         }
 
@@ -182,49 +184,54 @@
                     key: getQueryParameter('videoIndex')
                 })
             });
-            let com = "";
-            if (response.status === 200) {
-                const data = JSON.parse(await response.json());
-                com = data.value;
+
+            const data = JSON.parse(await response.json()); //Parse the data json object
+
+            const severity_level = data.severity; // Severity is a string
+
+            if (!severity_level) {
+            return; // No severity value stored, do nothing
             } else {
-                com = 'Not available';
+                const severityRadio = document.querySelector(`input[name="severity"][value="${severity_level}"]`); //Get severity data
+                severityRadio.checked = true; // Set the radio button as checked
             }
-            console.log(com);
+
+            const type = data.dark_pattern_type; // Type is an array or a single string
+
+            if (!type) {
+            return; // No dark pattern type value stored, do nothing
+            }
+
+            if (type === 'not-dark-pattern') {
+                // Check not dark pattern radio box
+                document.querySelector('#not-dark-pattern').checked = true;
+
+                // Uncheck all checkboxes
+                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
+                    checkbox.checked = false;
+                });
+            }else if (type === 'not-sure-sure') {
+                // Check not dark pattern radio box
+                document.querySelector('#not-sure').checked = true;
+
+                // Uncheck all checkboxes
+                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
+                    checkbox.checked = false;
+                });
+            } else {
+                // Check value saved in the data
+                darkTypes.forEach((dark_type) => {
+                    document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`).checked = true;
+                })
+                }
+            
             scene.className = 'video-container';
             scene.innerHTML = `
             <div>
-                <iframe width="560" height="315" src="${videoPair.long.replace("https://youtu.be/", "https://www.youtube.com/embed/")}" frameborder="0" allowfullscreen></iframe>
-               
-                <p><strong>Long Title:</strong> ${videoPair.longTitle}</p>
-                    <p><strong>Long Published At:</strong> ${new Date(videoPair.longAt).toLocaleString()}</p>                    
-               <div class="transcript-container">
-                  <div class="transcript-box" id="long-transcript">
-                    <p><strong>Long Transcript:</strong> ${videoPair.longTranscript}</p>           
-                            </div>
-                            </div>
-                </div>
-            <div>
-                <iframe width="560" height="315" src="${videoPair.short.replace("https://youtu.be/", "https://www.youtube.com/embed/")}" frameborder="0" allowfullscreen></iframe>
-                    <p><strong>Short Title:</strong> ${videoPair.shortTitle}</p>
-                    <p><strong>Short Published At:</strong> ${new Date(videoPair.shortAt).toLocaleString()}</p>
-                     <div class="transcript-container">
-                  <div class="transcript-box" id="long-transcript">
-                    <p><strong>Short Transcript:</strong> ${videoPair.shortTranscript}</p>
-                                     </div>
-                            </div>            
-                </div>
-                <div class="metadata">
-                    <p><strong>File:</strong> ${videoPair.file}</p>
-                    <p><strong>Similarity:</strong> ${videoPair.similarity}</p>
-                    <p><strong>Max Similarity:</strong> ${videoPair.max}</p>
-                    <p><strong>Transcript Similarity:</strong> ${videoPair.TranscriptSimilarity}</p>
-                    <p><strong>Title Similarity:</strong> ${videoPair.TitleSimilarity}</p>
-                    <p><strong>Short length</strong> ${videoPair.shortCommonWords}</p>
-                    <p><strong>Short Common Words:</strong> ${videoPair.common}</p>
-                    <textarea id="comments" rows="25" cols="25">${com}</textarea>
-                </div>
+                <p><strong>Widget</strong></p>
+                <img alt="design_screenshot sizes="print 73px,117px" src="${videoPair.screenshot_location}" id="screenshot_image">
+            </div>
             `;
-
             return scene;
         }
 
@@ -239,7 +246,7 @@
                 videoSource = videoData[videoIndex];
                 videoScenes.appendChild(scene);
             } else {
-                videoScenes.innerHTML = '<p>Invalid video index.</p>';
+                videoScenes.innerHTML = '<p>Invalid screenshot index.</p>';
             }
 
 
@@ -252,19 +259,13 @@
             const urlParams = new URLSearchParams(window.location.search);
             const videoIndex = urlParams.get('videoIndex');
 
-            const position = document.querySelector('input[name="position"]:checked');
-            const comparison = document.querySelector('input[name="comparison"]:checked');
-
-            const position1 = document.querySelector('input[name="position-1"]:checked');
-            const comparison1 = document.querySelector('input[name="comparison-1"]:checked');
+            const position = document.querySelector('input[name="dark_pattern_type"]:checked');
+            const comparison = document.querySelector('input[name="severity"]:checked');
 
             const data = {
-                long: videoSource.long,
-                short: videoSource.short,
-                position: position ? position.value : null,
-                comparison: comparison ? comparison.value : null,
-                position1: position1 ? position1.value : null,
-                comparison1: comparison1 ? comparison1.value : null
+                image: videoSource.screenshot_location,
+                dark_pattern_type: dark_pattern_type ? dark_pattern_type.value : null,
+                severity: severity ? severity.value : null,
             };
 
             return data;
@@ -281,7 +282,6 @@
                 },
                 body: JSON.stringify({
                     key: myuuid,
-                    value: data,
                     index: getQueryParameter('videoIndex'),
                     rater: getQueryParameter('user')
                 })
@@ -289,7 +289,7 @@
             Toast(JSON.stringify(await response.json()), 1000);
             console.log(JSON.stringify({
                     key: getQueryParameter('videoIndex'),
-                    value: document.getElementById('comments').value,
+                    value: data
                 }));
             const response1 = await fetch('https://rate.chenziwei0499.workers.dev/put', {
                 method: 'POST',
@@ -298,7 +298,8 @@
                 },
                 body: JSON.stringify({
                     key: getQueryParameter('videoIndex'),
-                    value: document.getElementById('comments').value,
+                    rater: getQueryParameter('user'),
+                    value: data
                 })
             });
             await Toast(JSON.stringify(await response1.json()), 1000);
