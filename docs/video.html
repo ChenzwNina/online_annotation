@@ -262,7 +262,6 @@
             const data_text = await response.text();
             if (!data_text || data_text.trim() === "") {
                 console.log("Empty response body.");
-                return scene; // Return scene without further processing
             }
 
             const data = JSON.parse(data_text);
@@ -272,7 +271,6 @@
 
             if (!severity_level) { // Check if type is null, undefined, or falsy
                     console.warn("severity is undefined or null.");
-                    return scene;
             } else {
                 console.log("Checked answer for severity is", severity_level);
                 const severityRadio = document.querySelector(`input[name="severity"][value="${severity_level}"]`); //Get severity data
@@ -281,50 +279,48 @@
 
             const type = data.dark_pattern_type; // Type is an array or a single string
 
-            if (type === 'not-dark-pattern') {
-                // Check not dark pattern radio boxs
-                document.querySelector('#not-dark-pattern').checked = true;
-
-                // Uncheck all checkboxes
-                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
-                    checkbox.checked = false;
-                });
-            }else if (type === 'not-sure-sure') {
-                // Check not dark pattern radio box
-                document.querySelector('#not-sure').checked = true;
-
-                // Uncheck all checkboxes
-                document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
-                    checkbox.checked = false;
-                });
-            } else {
-                if (!type) { // Check if type is null, undefined, or falsy
+            if (!type) { // Check if type is null, undefined, or falsy
                     console.warn("dark_pattern_type is undefined or null.");
-                    return scene;
+            } else {
+                if (type === 'not-dark-pattern') {
+                    // Check not dark pattern radio boxs
+                    document.querySelector('#not-dark-pattern').checked = true;
+
+                    // Uncheck all checkboxes
+                    document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
+                        checkbox.checked = false;
+                    });
+                }else if (type === 'not-sure-sure') {
+                    // Check not dark pattern radio box
+                    document.querySelector('#not-sure').checked = true;
+
+                    // Uncheck all checkboxes
+                    document.querySelectorAll('input[type="checkbox"][name="dark_pattern_type"]').forEach((checkbox) => {
+                        checkbox.checked = false;
+                    });
                 } else {
-                    console.log("Checked answers for dark pattern types are", type);
+                        console.log("Checked answers for dark pattern types are", type);
 
-                    if (typeof type === "string") {
-                        type = [type]; // Convert string to an array
-                    }
+                        if (typeof type === "string") {
+                            type = [type]; // Convert string to an array
+                        }
 
-                    if (Array.isArray(type)) { // Ensure type is an array before using forEach
-                        type.forEach((dark_type) => {
-                            const checkbox = document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`);
-                            if (checkbox) {
-                                checkbox.checked = true;
-                            } else {
-                                console.warn(`Checkbox for value "${dark_type}" not found.`);
-                            }
-                            return scene;
-                        });
-                    } else {
-                        console.error("Unexpected type format:", type);
-                        return scene;
+                        if (Array.isArray(type)) { // Ensure type is an array before using forEach
+                            type.forEach((dark_type) => {
+                                const checkbox = document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`);
+                                if (checkbox) {
+                                    checkbox.checked = true;
+                                } else {
+                                    console.warn(`Checkbox for value "${dark_type}" not found.`);
+                                }
+                            });
+                        } else {
+                            console.error("Unexpected type format:", type);
+                        }
                     }
                 }
+                return scene;
             }
-        }
 
 
         async function showScene() {
