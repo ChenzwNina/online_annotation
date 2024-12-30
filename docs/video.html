@@ -8,16 +8,14 @@
     <style>
         /* Clear floats after the columns */
         .container {
-        gap: 20px;
-        content: "";
-        display: table;
-        clear: both;
+            display: flex; /* Use Flexbox for layout */
+            gap: 20px; /* Adds 20px space between columns */
+            justify-content: center; /* Center the columns horizontally */
+            clear: both; /* Optional for legacy float compatibility */
         }
 
-        /* Each column */
         .column {
-            float: left;
-            width: 50%;
+            flex: 1; /* Each column takes up equal space */
             font-family: Arial, sans-serif;
         }
 
@@ -73,7 +71,7 @@
                     <h2>Dark Pattern Type</h2>
                     <div>
                         <thread> 
-                            <h3> Sneaking </h3>
+                            <h4> Sneaking </h4>
                         <tbody>
                             <label for="sneak-into-basket">
                                 <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
@@ -89,7 +87,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Urgency </p>
+                            <h4> Urgency </h4>
                         <tbody>
                             <label for="countdown-timer">
                                 <input type="checkbox" name="dark_pattern_type" id="countdown-timer" value ="countdown-timer">
@@ -101,7 +99,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Misdirection </p>
+                            <h4> Misdirection </h4>
                         <tbody>
                             <label for="confirmshaming">
                                 <input type="checkbox" name="dark_pattern_type" id="confirmshaming" value ="confirmshaming">
@@ -121,7 +119,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Social Proof </p>
+                            <h4> Social Proof </h4>
                         <tbody>
                             <label for="acitvity-message">
                                 <input type="checkbox" name="dark_pattern_type" id="acitvity-message" value ="acitvity-message">
@@ -133,7 +131,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Scarcity</p>
+                            <h4> Scarcity</h4>
                         <tbody>
                             <label for="low-stock-message">
                                 <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
@@ -145,7 +143,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Obstruction</p>
+                            <h4> Obstruction</h4>
                         <tbody>
                             <label for="hard-to-cancel">
                                 <input type="checkbox" name="dark_pattern_type" id="hard-to-cancel" value ="hard-to-cancel">
@@ -153,7 +151,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Forced Action</p>
+                            <h4> Forced Action</h4>
                         <tbody>
                             <label for="forced-enrollment">
                                 <input type="checkbox" name="dark_pattern_type" id="forced-enrollment" value ="forced-enrollment">
@@ -161,7 +159,7 @@
                             </label>
                         </tbody>
                         <thread> 
-                            <p> Other</p>
+                            <h4> Other</h4>
                         <tbody>
                             <label for="not-dark-pattern">
                                 <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
@@ -176,6 +174,7 @@
         
                 <div>
                     <h2>Dark Pattern Severity</h2>
+                    <p> If a dark pattern exists, select its severity. If there is no dark pattern, skip it. </p>
                     <div>
                         <label for="severe_3">
                             <input type="radio" name="severity" id="severe_3" value="severe_3">
@@ -194,11 +193,11 @@
                             Not severe (1)
                         </label>
                     </div>
-                <div class = "inline-buttons">
-                    <button id="prev-button">Previous</button>
-                    <button id="next-button">Next</button>
-                </div>
             </div>
+        <div class = "inline-buttons">
+            <button id="prev-button">Previous</button>
+            <button id="next-button">Next</button>
+        </div>
         </div>
     </div>
 
