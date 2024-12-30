@@ -10,5 +10,53 @@
         "Condition": "Baseline_System",
         "Widget": 2,
         "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des2_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 3,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des3_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 4,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des4_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 5,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des5_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 6,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des6_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 7,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des7_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 8,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des8_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 9,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des9_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Widget": 10,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des10_wid1.png"
     }
 ]
