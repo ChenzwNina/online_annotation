@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Widget Annotation</title>
     <style>
-        /* Create two columns */
+        /* Clear floats after the columns */
         .container {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         gap: 20px;
+        content: "";
+        display: table;
+        clear: both;
         }
 
         /* Each column */
         .column {
-            flex: 1;
-            max-width: 50%; 
+            float: left;
+            width: 50%;
+            font-family: Arial, sans-serif;
         }
 
         .column img {
@@ -55,8 +56,6 @@
                 <!-- Video scenes will be dynamically inserted here -->
             </div>
         </div>
-
-    </div>
         <div id="column">
             <div class="controls">
                 <div>
@@ -191,6 +190,7 @@
             </div>
         </div>
     </div>
+
 
     <script>
         // Select all checkboxes and radio buttons
@@ -328,7 +328,7 @@
             console.log("Video Data :" + JSON.stringify(videoData));
             const videoIndex = getQueryParameter('videoIndex');
             const videoScenes = document.getElementById('video-scenes');
-            videoScenes.innerHTML = '';
+            videoScenes.innerHTML = '<p> Current widget index: ' + videoIndex;
 
             if (videoIndex !== null && videoIndex < videoData.length && videoIndex >= 0) {
                 console.log("Video Data[index]: "+ JSON.stringify(videoData[videoIndex]));
