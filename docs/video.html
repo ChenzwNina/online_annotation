@@ -294,6 +294,11 @@
                     checkbox.checked = false;
                 });
             } else {
+                log.console("Checked answers are"+type)
+                if (typeof type === "string") {
+                    type = [type]; // Convert string to an array
+                }
+
                 // Check value saved in the data
                 type.forEach((dark_type) => {
                     document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`).checked = true;
