@@ -37,15 +37,26 @@
         }
 
         button {
-            padding: 10px 20px; /* Optional: Add padding for better appearance */
-            font-size: 16px; /* Optional: Adjust font size */
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px; /* Rounded corners for buttons */
+            background-color: #007bff; /* Button background color */
+            color: white; /* Button text color */
+            cursor: pointer;
         }
 
-        .button-container{
-            display: flex; /* Use Flexbox to align buttons in a row */
-            gap: 10px; /* Optional: Add space between buttons */
-            justify-content: flex-start; /* Align buttons to the left (default) */
+        button:hover {
+            background-color: #0056b3; /* Button hover effect */
         }
+
+        .inline-buttons {
+            display: flex;
+            justify-content: center; /* Center the buttons */
+            gap: 10px; /* Add spacing between the buttons */
+            margin-top: 20px; /* Add some spacing above the buttons */
+        }
+
     </style>
 </head>
 
@@ -59,10 +70,10 @@
         <div id="column">
             <div class="controls">
                 <div>
-                    <label>Dark Pattern Type</label>
+                    <h2>Dark Pattern Type</h2>
                     <div>
                         <thread> 
-                            <p> Sneaking </p>
+                            <h3> Sneaking </h3>
                         <tbody>
                             <label for="sneak-into-basket">
                                 <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
@@ -164,7 +175,7 @@
                     </div>
         
                 <div>
-                    <label>Dark Pattern Severity</label>
+                    <h2>Dark Pattern Severity</h2>
                     <div>
                         <label for="severe_3">
                             <input type="radio" name="severity" id="severe_3" value="severe_3">
@@ -183,7 +194,7 @@
                             Not severe (1)
                         </label>
                     </div>
-                <div class = "button-container">
+                <div class = "inline-buttons">
                     <button id="prev-button">Previous</button>
                     <button id="next-button">Next</button>
                 </div>
@@ -262,6 +273,7 @@
             const data_text = await response.text();
             if (!data_text || data_text.trim() === "") {
                 console.log("Empty response body.");
+                return scene;
             }
 
             const data = JSON.parse(data_text);
@@ -338,7 +350,7 @@
             } else {
                 videoScenes.innerHTML = `
                     <p><strong>Invalid image index</strong></p>
-                    <p> Current video index is ${videoIndex}. Total index is ${videoData.length}
+                    <p> Current video index is ${videoIndex}. Total index is ${videoData.length}.</p>
                 `;
             }
 
