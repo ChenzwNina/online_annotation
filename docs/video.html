@@ -268,6 +268,11 @@
             const data = JSON.parse(data_text);
             console.log("Raw Response Body:", data);
 
+            if (data.dark_pattern_type === null && data.severity === null) {
+                console.log("The value is empty: " + JSON.stringify(data));
+                return scene; // Return scene without further processing
+            }
+
             const severity_level = data.severity; // Severity is a string
 
             if (severity_level) {
@@ -294,7 +299,7 @@
                     checkbox.checked = false;
                 });
             } else {
-                log.console("Checked answers are"+type)
+                console.log("Checked answers are"+type)
                 if (typeof type === "string") {
                     type = [type]; // Convert string to an array
                 }
