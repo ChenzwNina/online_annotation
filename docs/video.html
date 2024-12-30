@@ -255,7 +255,6 @@
         async function createVideoScene(videoPair) {
             const scene = document.createElement('div');
 
-            scene.className = 'column';
             scene.innerHTML = `
             <div>
                 <h2><Widget Image</h2>
@@ -367,11 +366,13 @@
             const urlParams = new URLSearchParams(window.location.search);
             const videoIndex = urlParams.get('videoIndex');
 
-            const dark_pattern_type = document.querySelector('input[name="dark_pattern_type"]:checked');
+            const dark_pattern_type = document.querySelectorAll('input[name="dark_pattern_type"]:checked');
             const severity = document.querySelector('input[name="severity"]:checked');
 
             const data = {
-                dark_pattern_type: dark_pattern_type ? dark_pattern_type.value : null,
+                dark_pattern_type: dark_pattern_type.length > 0 
+                ? Array.from(dark_pattern_type).map(checkbox => checkbox.value) 
+                : null,
                 severity: severity ? severity.value : null,
             };
 
