@@ -3,12 +3,12 @@
         "Model": "GPT4o",
         "Condition": "Baseline_System",
         "Widget": 1,
-        "screenshot_location": "screenshot/des1_wid1.png"
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des1_wid1.png"
     },
     {
         "Model": "GPT4o",
         "Condition": "Baseline_System",
         "Widget": 2,
-        "screenshot_location": "screenshot/des2_wid1.png"
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/des2_wid1.png"
     }
 ]

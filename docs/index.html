@@ -45,7 +45,12 @@
                     button.onclick = () => {
                         window.location.href = `./video.html?videoIndex=${largestIndex + 1}&user=${name}`;
                     };
-                    document.body.appendChild(button);
+
+                    // Select the container by its ID
+                    const container = document.getElementById('container');
+
+                    // Append the button to the container
+                    container.appendChild(button);
                 });
         }
     </script>

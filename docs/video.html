@@ -11,12 +11,16 @@
             display: flex; /* Use Flexbox for layout */
             gap: 20px; /* Adds 20px space between columns */
             justify-content: center; /* Center the columns horizontally */
-            clear: both; /* Optional for legacy float compatibility */
         }
 
-        .column {
-            flex: 1; /* Each column takes up equal space */
-            font-family: Arial, sans-serif;
+        .column:first-child {
+            flex: 0 0 70%; /* Left column takes 70% of the container */
+            max-width: 70%; /* Prevent it from growing larger than 70% */
+        }
+
+        .column:last-child {
+            flex: 0 0 30%; /* Right column takes 30% of the container */
+            max-width: 30%; /* Prevent it from growing larger than 30% */
         }
 
         .column img {
@@ -254,7 +258,7 @@
             scene.className = 'column';
             scene.innerHTML = `
             <div>
-                <p><strong>Widget</strong></p>
+                <h2><Widget Image</h2>
                 <img alt="design_screenshot sizes="print 73px,117px" src="${videoPair.screenshot_location}">
             </div>
             `;
