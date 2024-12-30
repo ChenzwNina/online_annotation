@@ -45,7 +45,7 @@
                     button.onclick = () => {
                         window.location.href = `./video.html?videoIndex=${largestIndex + 1}&user=${name}`;
                     };
-
+                    
                     // Select the container by its ID
                     const container = document.getElementById('container');
 
@@ -67,12 +67,14 @@
     }
 
     .container {
+        display: inline-block; /* Let the width adjust to the content */
         text-align: center; /* Center text inside the container */
-        justify-content: center; /* Center horizontally */
         padding: 20px;
-        background: #ffffff; /* Optional: Add a background to the form */
-        border-radius: 8px; /* Optional: Rounded corners */
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow */
+        max-width: 400px; /* Set a max width for the container */
+        background: #ffffff; /* Add a background to the form */
+        border-radius: 8px; /* Rounded corners */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        margin: auto; /* Center horizontally */
     }
 
     .inline-buttons {
