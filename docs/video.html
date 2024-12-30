@@ -336,7 +336,10 @@
                 videoSource = videoData[videoIndex];
                 videoScenes.appendChild(scene);
             } else {
-                videoScenes.innerHTML = '<p>Invalid screenshot index.</p>';
+                videoScenes.innerHTML = `
+                    <p><strong>Invalid image index</strong></p>
+                    <p> Current video index is ${videoIndex}. Total index is ${videoData.length}
+                `;
             }
 
 
