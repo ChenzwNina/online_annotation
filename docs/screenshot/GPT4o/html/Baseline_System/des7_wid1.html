@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Confirmation Widget</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .cart-widget {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 300px;
+            background-color: #f8f9fa;
+            border: 1px solid #ced4da;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+            z-index: 1000;
+        }
+
+        .cart-widget img {
+            float: left;
+            margin-right: 10px;
+            width: 60px;
+            height: 60px;
+        }
+
+        .cart-widget .message {
+            overflow: hidden;
+        }
+
+        .cart-widget .message h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #28a745;
+        }
+
+        .cart-widget .message p {
+            margin: 5px 0 10px;
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .cart-widget .close-btn {
+            background-color: transparent;
+            border: none;
+            float: right;
+            font-size: 16px;
+            cursor: pointer;
+            color: #dc3545;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cart-widget">
+    <button class="close-btn" onclick="document.querySelector('.cart-widget').style.display='none';">✖</button>
+    <img src="placeholder_image.jpg" alt="Product Image">
+    <div class="message">
+        <h3>Item Added to Cart!</h3>
+        <p>Your selected item has been successfully added to your shopping cart.</p>
+    </div>
+</div>
+
+</body>
+</html>

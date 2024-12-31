@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership Cancellation Detail Widget</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .widget-container {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f9f9f9;
+            width: 300px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .widget-header {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .widget-body {
+            font-size: 14px;
+            color: #333;
+        }
+        .widget-footer {
+            margin-top: 15px;
+        }
+        .cancel-button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .cancel-button:hover {
+            background-color: #d73838;
+        }
+    </style>
+</head>
+<body>
+    <div class="widget-container">
+        <div class="widget-header">
+            Membership Cancellation
+        </div>
+        <div class="widget-body">
+            <p>Your membership will be active until the end of your current billing cycle. If you choose to cancel, you will lose access to exclusive perks and discounts.</p>
+            <p>Click the button below if you wish to proceed with cancelling your membership.</p>
+        </div>
+        <div class="widget-footer">
+            <button class="cancel-button">Cancel Membership</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotional Email Sign-up Widget</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .widget-container {
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 500px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        .widget-header {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .widget-description {
+            font-size: 16px;
+            margin-bottom: 20px;
+            color: #666;
+        }
+        .opt-in-options {
+            display: flex;
+            justify-content: space-around;
+        }
+        .opt-in-options label {
+            font-size: 14px;
+            color: #333;
+            cursor: pointer;
+        }
+        .opt-in-options input[type="radio"] {
+            margin-right: 10px;
+        }
+        .button-submit {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .button-submit:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="widget-container">
+        <div class="widget-header">Join Our Membership Program!</div>
+        <div class="widget-description">
+            Sign up to become a member and receive promotional marketing emails with the latest updates and exclusive deals.
+        </div>
+
+        <form>
+            <div class="opt-in-options">
+                <label>
+                    <input type="radio" name="email_opt_in" value="yes" checked>
+                    Opt-in to emails
+                </label>
+                <label>
+                    <input type="radio" name="email_opt_in" value="no">
+                    Opt-out of emails
+                </label>
+            </div>
+
+            <button type="submit" class="button-submit">Submit</button>
+        </form>
+    </div>
+
+</body>
+</html>

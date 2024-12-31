@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Notification Widget</title>
+    <style>
+        .cart-notification {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            max-width: 420px;
+            width: 90%;
+            border: 1px solid #e8e8e8;
+            animation: slideDown 0.3s ease-out;
+            z-index: 1000;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateX(-50%) translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .cart-notification-icon {
+            background-color: #f0f9f4;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .cart-notification-icon svg {
+            width: 24px;
+            height: 24px;
+            fill: #2ecc71;
+        }
+
+        .cart-notification-content {
+            flex-grow: 1;
+        }
+
+        .cart-notification-title {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 15px;
+            font-weight: 600;
+            color: #333333;
+            margin: 0 0 4px 0;
+        }
+
+        .cart-notification-message {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-size: 14px;
+            color: #666666;
+            margin: 0;
+        }
+
+        .cart-notification-close {
+            background: none;
+            border: none;
+            padding: 8px;
+            cursor: pointer;
+            color: #999999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .cart-notification-close:hover {
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="cart-notification">
+        <div class="cart-notification-icon">
+            <svg viewBox="0 0 24 24">
+                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+        </div>
+        <div class="cart-notification-content">
+            <h3 class="cart-notification-title">Item Added to Cart</h3>
+            <p class="cart-notification-message">Nike Air Max 270 has been added to your shopping cart. You now have 3 items in your cart.</p>
+        </div>
+        <button class="cart-notification-close">
+            <svg width="16" height="16" viewBox="0 0 16 16">
+                <path d="M8 6.586L14.293.293l1.414 1.414L9.414 8l6.293 6.293-1.414 1.414L8 9.414l-6.293 6.293-1.414-1.414L6.586 8 .293 1.707 1.707.293 8 6.586z" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+</body>
+</html>

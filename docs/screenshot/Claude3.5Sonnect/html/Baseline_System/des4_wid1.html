@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .banner-widget {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 90%;
+            max-width: 1200px;
+            background: linear-gradient(45deg, #ff6b6b, #ff8e8e);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 1000;
+            animation: slideDown 0.5s ease-out;
+        }
+
+        .banner-content {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex: 1;
+        }
+
+        .banner-icon {
+            font-size: 24px;
+        }
+
+        .banner-text {
+            font-family: Arial, sans-serif;
+        }
+
+        .banner-text strong {
+            font-weight: 700;
+        }
+
+        .banner-close {
+            background: transparent;
+            border: none;
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 0 10px;
+            transition: transform 0.2s;
+        }
+
+        .banner-close:hover {
+            transform: scale(1.1);
+        }
+
+        .countdown {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 4px 10px;
+            border-radius: 4px;
+            margin-left: 10px;
+            font-weight: bold;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translate(-50%, -100%);
+            }
+            to {
+                transform: translate(-50%, 0);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .banner-widget {
+                padding: 12px 15px;
+            }
+            
+            .banner-content {
+                gap: 10px;
+            }
+            
+            .banner-text {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner-widget" id="saleBanner">
+        <div class="banner-content">
+            <div class="banner-icon">🎉</div>
+            <div class="banner-text">
+                <strong>SUMMER FLASH SALE!</strong> Get 30% OFF on all summer essentials + FREE shipping on orders over $50
+                <span class="countdown">Ends in 23:45:12</span>
+            </div>
+        </div>
+        <button class="banner-close" onclick="document.getElementById('saleBanner').style.display='none'">×</button>
+    </div>
+</body>
+</html>

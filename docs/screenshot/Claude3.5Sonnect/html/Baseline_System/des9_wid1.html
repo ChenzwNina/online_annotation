@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .cancellation-widget {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 600px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            padding: 24px;
+            font-family: Arial, sans-serif;
+            border: 1px solid #e6e6e6;
+        }
+
+        .widget-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .membership-status {
+            background-color: #fff3f3;
+            color: #dc3545;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .membership-id {
+            color: #666;
+            font-size: 14px;
+        }
+
+        .cancellation-details {
+            border-top: 1px solid #eee;
+            padding-top: 20px;
+        }
+
+        .detail-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+
+        .detail-label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .detail-value {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .warning-message {
+            background-color: #fff8e6;
+            border-left: 4px solid #ffc107;
+            padding: 12px;
+            margin: 20px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            border: none;
+        }
+
+        .btn-cancel {
+            background-color: #dc3545;
+            color: white;
+        }
+
+        .btn-keep {
+            background-color: #ffffff;
+            color: #333;
+            border: 1px solid #ccc;
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <div class="cancellation-widget">
+        <div class="widget-header">
+            <span class="membership-status">Cancellation Pending</span>
+            <span class="membership-id">Membership ID: PRE-584962</span>
+        </div>
+
+        <div class="cancellation-details">
+            <div class="detail-row">
+                <span class="detail-label">Current Plan</span>
+                <span class="detail-value">Premium Annual Membership</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Billing Cycle</span>
+                <span class="detail-value">Annual ($199/year)</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Next Billing Date</span>
+                <span class="detail-value">December 15, 2023</span>
+            </div>
+            <div class="detail-row">
+                <span class="detail-label">Membership Status</span>
+                <span class="detail-value">Active until December 15, 2023</span>
+            </div>
+        </div>
+
+        <div class="warning-message">
+            By canceling your membership, you'll lose access to premium features including free shipping, exclusive deals, and member-only discounts. Your benefits will remain active until the end of your current billing period.
+        </div>
+
+        <div class="action-buttons">
+            <button class="btn btn-cancel">Confirm Cancellation</button>
+            <button class="btn btn-keep">Keep Membership</button>
+        </div>
+    </div>
+</body>
+</html>

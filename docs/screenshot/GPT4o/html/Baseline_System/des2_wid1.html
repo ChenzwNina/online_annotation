@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Subtotal Widget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .widget-container {
+            position: relative;
+            top: 20px;
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            text-align: center;
+        }
+        .order-summary {
+            margin-top: 10px;
+        }
+        .order-summary h2 {
+            font-size: 24px;
+            margin: 0;
+            color: #333333;
+        }
+        .subtotal {
+            font-size: 18px;
+            margin: 15px 0;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="widget-container">
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="subtotal">
+                <p>Subtotal: $10.00</p>
+            </div>
+            <div>
+                <button style="padding: 10px 20px; font-size: 16px; color: #ffffff; background-color: #007BFF; border: none; border-radius: 5px; cursor: pointer;">
+                    Review Total
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

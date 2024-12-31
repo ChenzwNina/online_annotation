@@ -1,0 +1,122 @@
+[
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 1,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des1_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 2,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des2_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 3,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des3_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 4,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des4_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 5,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des5_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 6,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des6_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 7,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des7_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 8,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des8_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 9,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des9_wid1.png"
+    },
+    {
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": 10,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/Claude3.5Sonnect/screenshot/Baseline_System/des10_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 1,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des1_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 2,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des2_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 3,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des3_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 4,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des4_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 5,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des5_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 6,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des6_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 7,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des7_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 8,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des8_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 9,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des9_wid1.png"
+    },
+    {
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": 10,
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/GPT4o/screenshot/Baseline_System/des10_wid1.png"
+    }
+]
