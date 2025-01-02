@@ -6,16 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Widget Annotation</title>
     <style>
-        .icon {
-            background: url('https://drive.google.com/file/d/1AnfiKdedTB_W8_Tmh7MZAP40Xn6lbD9O/view?usp=drive_link');
-            height: 20px;
-            width: 20px;
-            display: inline-block; /* Keeps the icon inline with text */
-        }
-
         .clickable {
             text-decoration: none; /* Removes underline from the link */
             color: rgb(30, 108, 226); /* Sets text color */
+        }
+
+        .clickable:hover {
+            background-color: #6aa7e8; /* Button hover effect */
         }
 
         /* Clear floats after the columns */
@@ -85,7 +82,7 @@
             <div>
                 <h2>Dark Pattern Category Selection</h2>
                 <a href="https://docs.google.com/document/d/1N6PxylN0ZMmg9i23Z0Zsmfo3J6Kj6oztqCK-69QNhbI/edit?usp=sharing" class="clickable">
-                    <span class="icon"></span> View Category Rubric
+                    View Category Rubric
                 </a>
                 <div>
                     <thread> 
