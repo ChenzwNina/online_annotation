@@ -6,6 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Widget Annotation</title>
     <style>
+        .icon {
+            background: url('https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/help.png');
+            height: 20px;
+            width: 20px;
+            display: block;
+        }
+
+        .clickable {
+            text-decoration: none; /* Removes underline from the link */
+            color: black; /* Sets text color */
+        }
+
         /* Clear floats after the columns */
         .container {
             display: flex; /* Use Flexbox for layout */
@@ -71,7 +83,10 @@
         </div>
         <div class="column">
             <div>
-                <h2>Dark Pattern Categories</h2>
+                <h2>Dark Pattern Category Selection</h2>
+                <a href="https://docs.google.com/document/d/1N6PxylN0ZMmg9i23Z0Zsmfo3J6Kj6oztqCK-69QNhbI/edit?usp=sharing" class="clickable">
+                    <span class="icon"></span> Category Rubric
+                </a>
                 <div>
                     <thread> 
                         <h4> Sneaking </h4>
@@ -184,8 +199,8 @@
                 </div>
     
             <div>
-                <h2>Dark Pattern Impact</h2>
-                <p> If a dark pattern exists, select its severity. If there is no dark pattern, skip it. </p>
+                <h2>Dark Pattern Impact Evaluation</h2>
+                <p> If a dark pattern exists, select its impact. If there is no dark pattern, skip this section. </p>
                 <thread> 
                     <h4> How much do you agree: The design of this widget increases the chance that I will spend more than I planned.</h4>
                     <tbody>
