@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Widget Annotation</title>
     <style>
+        hr.dashed {
+        border-top: 2px dashed #bbb;
+        }
+
         .clickable {
             text-decoration: none; /* Removes underline from the link */
             color: rgb(30, 108, 226); /* Sets text color */
@@ -85,117 +89,63 @@
                     View Category Rubric
                 </a>
                 <div>
-                    <thread> 
-                        <h4> Sneaking </h4>
-                        <tbody>
-                            <label for="sneak-into-basket">
-                                <input type="checkbox" name="dark_pattern_type" id="sneak-into-basket" value ="sneak-into-basket">
-                                Sneak into Basket
-                            </label>
-                            <label for="hidden-costs">
-                                <input type="checkbox" name="dark_pattern_type" id="hidden-costs" value ="hidden-costs">
-                                Hidden Costs
-                            </label>
-                            <label for="hidden-subscription">
-                                <input type="checkbox" name="dark_pattern_type" id="hidden-subscription" value ="hidden-subscription">
-                                Hidden Subscription
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Urgency </h4>
-                        <tbody>
-                            <label for="countdown-timer">
-                                <input type="checkbox" name="dark_pattern_type" id="countdown-timer" value ="countdown-timer">
-                                Countdown Timer
-                            </label>
-                            <label for="limited-time-message">
-                                <input type="checkbox" name="dark_pattern_type" id="limited-time-message" value ="limited-time-message">
-                                Limited-time Message
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Misdirection </h4>
-                        <tbody>
-                            <label for="confirmshaming">
-                                <input type="checkbox" name="dark_pattern_type" id="confirmshaming" value ="confirmshaming">
-                                Confirmshaming
-                            </label>
-                            <label for="visual-interference">
-                                <input type="checkbox" name="dark_pattern_type" id="visual-interference" value ="visual-interference">
-                                Visual Interference
-                            </label>
-                            <label for="trick-questions">
-                                <input type="checkbox" name="dark_pattern_type" id="trick-questions" value ="trick-questions">
-                                Trick Questions
-                            </label>
-                            <label for="pressured-selling">
-                                <input type="checkbox" name="dark_pattern_type" id="pressured-selling" value ="pressured-selling">
-                                Pressured Selling
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Social Proof </h4>
-                        <tbody>
-                            <label for="acitvity-message">
-                                <input type="checkbox" name="dark_pattern_type" id="acitvity-message" value ="acitvity-message">
-                                Activity Message
-                            </label>
-                            <label for="testimonials">
-                                <input type="checkbox" name="dark_pattern_type" id="testimonials" value ="testimonials">
-                                Testimonials
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Scarcity</h4>
-                        <tbody>
-                            <label for="low-stock-message">
-                                <input type="checkbox" name="dark_pattern_type" id="low-stock-message" value ="low-stock-message">
-                                Low-stock Message
-                            </label>
-                            <label for="high-demand-message">
-                                <input type="checkbox" name="dark_pattern_type" id="high-demand-message" value ="high-demand-message">
-                                High-demand Message
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Obstruction</h4>
-                        <tbody>
-                            <label for="hard-to-cancel">
-                                <input type="checkbox" name="dark_pattern_type" id="hard-to-cancel" value ="hard-to-cancel">
-                                Hard to Cancel
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Forced Action</h4>
-                        <tbody>
-                            <label for="forced-enrollment">
-                                <input type="checkbox" name="dark_pattern_type" id="forced-enrollment" value ="forced-enrollment">
-                                Forced Enrollment
-                            </label>
-                        </tbody>
-                    </thread> 
-                    <thread> 
-                        <h4> Other</h4>
-                        <tbody>
-                            <label for="not-dark-pattern">
-                                <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
-                                Not a Dark Pattern
-                            </label>
-                            <label for="not-sure">
-                                <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
-                                Not Sure
-                            </label>
-                        </tbody>
-                    </thread> 
+                    <h4>
+                        <label for="Asymmetric">
+                            <input type="checkbox" name="dark_pattern_type" id="Asymmetric" value ="Asymmetric">
+                            Asymmetric
+                        </label>
+                    </h4>
+                    <p>Does the user interface design impose unequal weights or burdens on the available choices presented to the user in the interface?</p>
+                    <hr class="dashed">
+                    <h4>
+                        <label for="Covert">
+                            <input type="checkbox" name="dark_pattern_type" id="Covert" value ="Covert">
+                            Covert
+                        </label>
+                    </h4>
+                    <p>Is the effect of the user interface design choice hidden from users? That is, does the interface design to steer users into making specific purchases without their knowledge?</p>
+                    <hr class="dashed">
+                    <h4>
+                        <label for="Deceptive">
+                            <input type="checkbox" name="dark_pattern_type" id="Deceptive" value ="Deceptive">
+                            Deceptive
+                        </label>
+                    </h4>
+                    <p>Does the user interface design induce false beliefs either through affirmative misstatements, misleading statements, or omissions?</p>
+                    <hr class="dashed">
+                    <h4>
+                        <label for="Hides-Information">
+                            <input type="checkbox" name="dark_pattern_type" id="Hides-Information" value ="Hides-Informations">
+                            Hides Information
+                        </label>
+                    </h4>
+                    <p>Does the user interface obscure or delay the presentation of necessary information to the user?</p>
+                    <hr class="dashed">
+                    <h4>
+                        <label for="Restrictive">
+                            <input type="checkbox" name="dark_pattern_type" id="Restrictive" value ="Restrictive">
+                            Restrictive
+                        </label>
+                    </h4>
+                    <p>Does the user interface restrict the set of choices available to users?</p>
+                    <hr class="dashed">
+                    <label for="not-dark-pattern">
+                        <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
+                        Not a Dark Pattern
+                    </label>
+                    <label for="not-sure">
+                        <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
+                        Not Sure
+                    </label>
+                    <label for="cannot-see">
+                        <input type="radio" name="dark_pattern_type" id="cannot-see" value ="cannot-see">
+                        Can't see/issue loading widget
+                    </label>
+                    
                 </div>
     
             <div>
+                <br>
                 <h2>Dark Pattern Impact Evaluation</h2>
                 <p> If a dark pattern exists, select its impact. If there is no dark pattern, skip this section. </p>
                 <thread> 
