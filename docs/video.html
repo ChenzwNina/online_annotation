@@ -86,7 +86,7 @@
             <div>
                 <h2>Dark Pattern Category Selection</h2>
                 <a href="https://docs.google.com/document/d/1N6PxylN0ZMmg9i23Z0Zsmfo3J6Kj6oztqCK-69QNhbI/edit?usp=sharing" class="clickable">
-                    View Category Rubric
+                    View Rubric and Reference Paper
                 </a>
                 <div>
                     <h4>
@@ -95,7 +95,7 @@
                             Asymmetric
                         </label>
                     </h4>
-                    <p>Does the user interface design impose unequal weights or burdens on the available choices presented to the user in the interface?</p>
+                    <p>Unequal burdens on choices available to the user.</p>
                     <hr class="dashed">
                     <h4>
                         <label for="Covert">
@@ -103,7 +103,7 @@
                             Covert
                         </label>
                     </h4>
-                    <p>Is the effect of the user interface design choice hidden from users? That is, does the interface design to steer users into making specific purchases without their knowledge?</p>
+                    <p>Hiding the influence mechanism from users.</p>
                     <hr class="dashed">
                     <h4>
                         <label for="Deceptive">
@@ -111,7 +111,7 @@
                             Deceptive
                         </label>
                     </h4>
-                    <p>Does the user interface design induce false beliefs either through affirmative misstatements, misleading statements, or omissions?</p>
+                    <p>Induce false beliefs in users either through affirmative misstatements, misleading statements, or omissions.</p>
                     <hr class="dashed">
                     <h4>
                         <label for="Hides-Information">
@@ -119,7 +119,7 @@
                             Hides Information
                         </label>
                     </h4>
-                    <p>Does the user interface obscure or delay the presentation of necessary information to the user?</p>
+                    <p>Obscure or delay the presentation of necessary information to users.</p>
                     <hr class="dashed">
                     <h4>
                         <label for="Restrictive">
@@ -127,7 +127,15 @@
                             Restrictive
                         </label>
                     </h4>
-                    <p>Does the user interface restrict the set of choices available to users?</p>
+                    <p>Eliminate certain choices that should be available to users.</p>
+                    <hr class="dashed">
+                    <h4>
+                        <label for="Disparate-Treatment ">
+                            <input type="checkbox" name="dark_pattern_type" id="Disparate-Treatment " value ="Disparate-Treatment">
+                            Disparate Treatment
+                        </label>
+                    </h4>
+                    <p>Disadvantage and treat one group of users differently from another.</p>
                     <hr class="dashed">
                     <label for="not-dark-pattern">
                         <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
@@ -146,10 +154,10 @@
     
             <div>
                 <br>
-                <h2>Dark Pattern Impact Evaluation</h2>
+                <h2>Dark Pattern Impact</h2>
                 <p> If a dark pattern exists, select its impact. If there is no dark pattern, skip this section. </p>
                 <thread> 
-                    <h4> How much do you agree: The design of this widget increases the chance that I will spend more than I planned.</h4>
+                    <h4> How much do you agree:  The design of this widget could lead to financial loss for me.</h4>
                     <tbody>
                         <label for="strongly_disagree">
                             <input type="radio" name="money_loss" id="strongly_disagree" value ="strongly_disagree">
@@ -175,7 +183,7 @@
                 </thread> 
 
                 <thread> 
-                    <h4> How much do you agree: The design of this widget increases the chance of unnecessarily exposing my privacy.</h4>
+                    <h4> How much do you agree: The design of this widget compromises my privacy.</h4>
                     <tbody>
                         <label for="strongly_disagree">
                             <input type="radio" name="privacy_loss" id="strongly_disagree" value ="strongly_disagree">
@@ -201,7 +209,7 @@
                 </thread> 
 
                 <thread> 
-                    <h4> How much do you agree: The design of this widget increases the chance that I will spend unnecessary time, energy, and attention.</h4>
+                    <h4> How much do you agree: The design of this widget increases my cognitive burden, including time, energy, and attention.</h4>
                     <tbody>
                         <label for="strongly_disagree">
                             <input type="radio" name="cognition_loss" id="strongly_disagree" value ="strongly_disagree">
