@@ -342,7 +342,7 @@
 
 
             const money_loss_value = data.value.money_loss; // Severity is a string
-            console.log("What is money_loss:" + data.value.money_loss)
+            console.log("money_loss:" + data.value.money_loss)
             if (!money_loss_value) { // Check if type is null, undefined, or falsy
                     console.warn("First statement is undefined or null.");
             } else {
@@ -448,7 +448,7 @@
             const cognition_loss = document.querySelector('input[name="cognition_loss"]:checked');
 
             const data = {
-                dark_exist: userSelection,
+                // dark_exist: userSelection,
                 dark_pattern_type: dark_pattern_type.length > 0 
                 ? Array.from(dark_pattern_type).map(checkbox => checkbox.value) 
                 : null,
