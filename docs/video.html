@@ -41,10 +41,6 @@
             height: auto; /* Ensure the image scales properly */
         }
 
-        /* #labelingContent {
-            display: none;
-        } */
-
         button {
             padding: 10px 20px;
             font-size: 16px;
@@ -77,195 +73,124 @@
             </div>
         </div>
         <div class="column">
-            <!-- <h2>Dark Pattern Category Selection</h2>
-    
-            <p>Is this design a dark pattern?</p>
+            <h2>Dark Pattern Category Selection</h2>
             <a href="https://docs.google.com/document/d/1N6PxylN0ZMmg9i23Z0Zsmfo3J6Kj6oztqCK-69QNhbI/edit?usp=sharing" class="clickable">
                 View Rubric and Reference Paper
             </a>
+            <p>Is this design a dark pattern?</p>
+            <div>
+                <hr class="dashed">
+                <label for="not-dark-pattern">
+                    <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
+                    Not a Dark Pattern
+                </label>
+                <label for="not-sure">
+                    <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
+                    Need a discussion
+                </label>
+                <label for="cannot-see">
+                    <input type="radio" name="dark_pattern_type" id="cannot-see" value ="cannot-see">
+                    Can't see/issue loading widget
+                </label>
+                <hr class="dashed">
+                <h4>
+                    <label for="Asymmetric">
+                        <input type="checkbox" name="dark_pattern_type" id="Asymmetric" value ="Asymmetric">
+                        Asymmetric
+                    </label>
+                </h4>
+                <p>Unequal burdens on choices available to the user.</p>
+                <hr class="dashed">
+                <h4>
+                    <label for="Covert">
+                        <input type="checkbox" name="dark_pattern_type" id="Covert" value ="Covert">
+                        Covert
+                    </label>
+                </h4>
+                <p>Hiding the influence mechanism from users.</p>
+                <hr class="dashed">
+                <h4>
+                    <label for="Deceptive">
+                        <input type="checkbox" name="dark_pattern_type" id="Deceptive" value ="Deceptive">
+                        Deceptive
+                    </label>
+                </h4>
+                <p>Induce false beliefs in users either through affirmative misstatements, misleading statements, or omissions.</p>
+                <hr class="dashed">
+                <h4>
+                    <label for="Hides-Information">
+                        <input type="checkbox" name="dark_pattern_type" id="Hides-Information" value ="Hides-Informations">
+                        Hides Information
+                    </label>
+                </h4>
+                <p>Obscure or delay the presentation of necessary information to users.</p>
+                <hr class="dashed">
+                <h4>
+                    <label for="Restrictive">
+                        <input type="checkbox" name="dark_pattern_type" id="Restrictive" value ="Restrictive">
+                        Restrictive
+                    </label>
+                </h4>
+                <p>Eliminate certain choices that should be available to users.</p>
+                <hr class="dashed">
+                <h4>
+                    <label for="Disparate-Treatment ">
+                        <input type="checkbox" name="dark_pattern_type" id="Disparate-Treatment " value ="Disparate-Treatment">
+                        Disparate Treatment
+                    </label>
+                </h4>
+                <p>Disadvantage and treat one group of users differently from another.</p>
+                
+            </div>
+
+            <h2>Dark Pattern Impact</h2>
+            <p> If a dark pattern exists, select its impact. If there is no dark pattern, skip this section. </p>
+            <h4> 1. Which aspects of users' behavior or experience might be affected by the dark pattern? </h4>
+            <thread> 
+                <p>
+                    <label for="financial-loss">
+                        <input type="checkbox" name="dark_pattern_impact" id="financial-loss" value ="financial-loss">
+                        Financial loss
+                    </label>
+                </p>
+                <p>
+                    <label for="Privacy">
+                        <input type="checkbox" name="dark_pattern_impact" id="financial-loss" value ="privacy">
+                        Privacy
+                    </label>
+                </p>
+                <p>
+                    <label for="Cognition">
+                        <input type="checkbox" name="dark_pattern_impact" id="cognition" value ="cognition">
+                        Cognitive burden, including time, energy, and attention.
+                    </label>
+                </p>
+                <h4> 2. Rate the magnitude of the influence</h4>
+                <tbody>
+                    <label for="low-influence">
+                        <input type="radio" name="magnitude" id="low-influence" value ="low-influence">
+                        Low influence
+                    </label>
+                    <label for="moderate-influence">
+                        <input type="radio" name="magnitude" id="slight-influence" value ="slight-influence">
+                        Moderate influence
+                    </label>
+                    <label for="high-influence">
+                        <input type="radio" name="magnitude" id="high-influence" value ="high-influence">
+                       High influence
+                    </label>
+                </tbody>
+            </thread> 
             <div class = "inline-buttons">
-                <button class="exist-button" id="yes_button">Yes</button>
-                <button class="exist-button" id="no_button" >No, go to next widget</button>
-            </div> -->
-
-            <div id="labelingContent">
-                <div>
-                    <h4>
-                        <label for="Asymmetric">
-                            <input type="checkbox" name="dark_pattern_type" id="Asymmetric" value ="Asymmetric">
-                            Asymmetric
-                        </label>
-                    </h4>
-                    <p>Unequal burdens on choices available to the user.</p>
-                    <hr class="dashed">
-                    <h4>
-                        <label for="Covert">
-                            <input type="checkbox" name="dark_pattern_type" id="Covert" value ="Covert">
-                            Covert
-                        </label>
-                    </h4>
-                    <p>Hiding the influence mechanism from users.</p>
-                    <hr class="dashed">
-                    <h4>
-                        <label for="Deceptive">
-                            <input type="checkbox" name="dark_pattern_type" id="Deceptive" value ="Deceptive">
-                            Deceptive
-                        </label>
-                    </h4>
-                    <p>Induce false beliefs in users either through affirmative misstatements, misleading statements, or omissions.</p>
-                    <hr class="dashed">
-                    <h4>
-                        <label for="Hides-Information">
-                            <input type="checkbox" name="dark_pattern_type" id="Hides-Information" value ="Hides-Informations">
-                            Hides Information
-                        </label>
-                    </h4>
-                    <p>Obscure or delay the presentation of necessary information to users.</p>
-                    <hr class="dashed">
-                    <h4>
-                        <label for="Restrictive">
-                            <input type="checkbox" name="dark_pattern_type" id="Restrictive" value ="Restrictive">
-                            Restrictive
-                        </label>
-                    </h4>
-                    <p>Eliminate certain choices that should be available to users.</p>
-                    <hr class="dashed">
-                    <h4>
-                        <label for="Disparate-Treatment ">
-                            <input type="checkbox" name="dark_pattern_type" id="Disparate-Treatment " value ="Disparate-Treatment">
-                            Disparate Treatment
-                        </label>
-                    </h4>
-                    <p>Disadvantage and treat one group of users differently from another.</p>
-                    <hr class="dashed">
-                    <label for="not-dark-pattern">
-                        <input type="radio" name="dark_pattern_type" id="not-dark-pattern" value ="not-dark-pattern">
-                        Not a Dark Pattern
-                    </label>
-                    <label for="not-sure">
-                        <input type="radio" name="dark_pattern_type" id="not-sure" value ="not-sure">
-                        Not Sure
-                    </label>
-                    <label for="cannot-see">
-                        <input type="radio" name="dark_pattern_type" id="cannot-see" value ="cannot-see">
-                        Can't see/issue loading widget
-                    </label>
-                    
-                </div>
-    
-                <br>
-                <h2>Dark Pattern Impact</h2>
-                <p> If a dark pattern exists, select its impact. If there is no dark pattern, skip this section. </p>
-                <thread> 
-                    <h4> How much do you agree:  The design of this widget could lead to financial loss for me.</h4>
-                    <tbody>
-                        <label for="strongly_disagree">
-                            <input type="radio" name="money_loss" id="strongly_disagree" value ="strongly_disagree">
-                            Strongly Disagree
-                        </label>
-                        <label for="disagree">
-                            <input type="radio" name="money_loss" id="disagree" value ="disagree">
-                            Disagree
-                        </label>
-                        <label for="neutral">
-                            <input type="radio" name="money_loss" id="neutral" value ="neutral">
-                            Neither agree or disagree
-                        </label>
-                        <label for="agree">
-                            <input type="radio" name="money_loss" id="agree" value ="agree">
-                            Agree
-                        </label>
-                        <label for="strongly_agree">
-                            <input type="radio" name="money_loss" id="strongly_agree" value ="strongly_agree">
-                            Strongly Agree
-                        </label>
-                    </tbody>
-                </thread> 
-
-                <thread> 
-                    <h4> How much do you agree: The design of this widget compromises my privacy.</h4>
-                    <tbody>
-                        <label for="strongly_disagree">
-                            <input type="radio" name="privacy_loss" id="strongly_disagree" value ="strongly_disagree">
-                            Strongly Disagree
-                        </label>
-                        <label for="disagree">
-                            <input type="radio" name="privacy_loss" id="disagree" value ="disagree">
-                            Disagree
-                        </label>
-                        <label for="neutral">
-                            <input type="radio" name="privacy_loss" id="neutral" value ="neutral">
-                            Neither agree or disagree
-                        </label>
-                        <label for="agree">
-                            <input type="radio" name="privacy_loss" id="agree" value ="agree">
-                            Agree
-                        </label>
-                        <label for="strongly_agree">
-                            <input type="radio" name="privacy_loss" id="strongly_agree" value ="strongly_agree">
-                            Strongly Agree
-                        </label>
-                    </tbody>
-                </thread> 
-
-                <thread> 
-                    <h4> How much do you agree: The design of this widget increases my cognitive burden, including time, energy, and attention.</h4>
-                    <tbody>
-                        <label for="strongly_disagree">
-                            <input type="radio" name="cognition_loss" id="strongly_disagree" value ="strongly_disagree">
-                            Strongly Disagree
-                        </label>
-                        <label for="disagree">
-                            <input type="radio" name="cognition_loss" id="disagree" value ="disagree">
-                            Disagree
-                        </label>
-                        <label for="neutral">
-                            <input type="radio" name="cognition_loss" id="neutral" value ="neutral">
-                            Neither agree or disagree
-                        </label>
-                        <label for="agree">
-                            <input type="radio" name="cognition_loss" id="agree" value ="agree">
-                            Agree
-                        </label>
-                        <label for="strongly_agree">
-                            <input type="radio" name="cognition_loss" id="strongly_agree" value ="strongly_agree">
-                            Strongly Agree
-                        </label>
-                    </tbody>
-                </thread> 
-                <div class = "inline-buttons">
-                    <button id="prev-button">Previous</button>
-                    <button id="next-button">Next</button>
-                </div>
+                <button id="prev-button">Previous</button>
+                <button id="next-button">Next</button>
             </div>
         </div>
     </div>
 
 
     <script>
-        // // Display rest labeling content whe users select "Yes"
-        // function displayRestContent() {
-        //     document.getElementById("labelingContent").style.display = "block";
-        // }
-
-        // // Document button input
-        // const pattern_exist = document.querySelector('.exist-button');
-
-        // // Initialize a variable to store the user's selection
-        // let userSelection = null;
-
-        // // Add event listener to the "Yes" button
-        // document.getElementById('yes_button').addEventListener('click', () => {
-        //     userSelection = 'yes'; // Record the selection
-        //     displayRestContent
-        // });
-
-        // // Add event listener to the "No" button
-        // document.getElementById('no_button').addEventListener('click', () => {
-        //     userSelection = 'no'; // Record the selection
-        //     goToNextScene
-        // });
-
+    
         // Select all checkboxes and radio buttons
         const allTypeCheckboxes = document.querySelectorAll('input[name="dark_pattern_type"][type="checkbox"]');
         const allTypeRadios = document.querySelectorAll('input[name="dark_pattern_type"][type="radio"]');
@@ -339,38 +264,10 @@
 
             const data = JSON.parse(JSON.parse(data_text));
             console.log("Raw Response Body:", data);
-
-
-            const money_loss_value = data.value.money_loss; // Severity is a string
-            console.log("money_loss:" + data.value.money_loss)
-            if (!money_loss_value) { // Check if type is null, undefined, or falsy
-                    console.warn("First statement is undefined or null.");
-            } else {
-                console.log("Checked answer for first statement is", money_loss_value);
-                const money_lossRadio = document.querySelector(`input[name="money_loss"][value="${money_loss_value}"]`); //Get data
-                money_lossRadio.checked = true; // Set the radio button as checked
-            }
-
-            const privacy_loss_value = data.value.privacy_loss; // Severity is a string
-            if (!privacy_loss_value) { // Check if type is null, undefined, or falsy
-                    console.warn("Second statement is undefined or null.");
-            } else {
-                console.log("Checked answer for second statement is", privacy_loss_value);
-                const privacy_lossRadio = document.querySelector(`input[name="privacy_loss"][value="${privacy_loss_value}"]`); //Get data
-                privacy_lossRadio.checked = true; // Set the radio button as checked
-            }
-
-            const cognition_loss_value = data.value.cognition_loss; // Severity is a string
-            if (!cognition_loss_value) { // Check if type is null, undefined, or falsy
-                    console.warn("Third statement is undefined or null.");
-            } else {
-                console.log("Checked answer for third statement is", cognition_loss_value);
-                const cognition_lossRadio = document.querySelector(`input[name="cognition_loss"][value="${cognition_loss_value}"]`); //Get data
-                cognition_lossRadio.checked = true; // Set the radio button as checked
-            }
-
+                
+            // Pre-populate selected dark pattern type
             const type = data.value.dark_pattern_type; // Type is an array or a single string
-            if (!type) { // Check if type is null, undefined, or falsy
+            if (!type) { // Check if type is null, undefined, or false
                     console.warn("dark_pattern_type is undefined or null.");
             } else {
                 if (type === 'not-dark-pattern') {
@@ -390,27 +287,62 @@
                         checkbox.checked = false;
                     });
                 } else {
-                        console.log("Checked answers for dark pattern types are", type);
+                    console.log("Checked answers for dark pattern types are", type);
 
-                        if (typeof type === "string") {
-                            type = [type]; // Convert string to an array
-                        }
+                    if (typeof type === "string") {
+                        type = [type]; // Convert string to an array
+                    }
 
-                        if (Array.isArray(type)) { // Ensure type is an array before using forEach
-                            type.forEach((dark_type) => {
-                                const checkbox = document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`);
-                                if (checkbox) {
-                                    checkbox.checked = true;
-                                } else {
-                                    console.warn(`Checkbox for value "${dark_type}" not found.`);
-                                }
-                            });
-                        } else {
-                            console.error("Unexpected type format:", type);
-                        }
+                    if (Array.isArray(type)) { // Ensure type is an array before using forEach
+                        type.forEach((dark_type) => {
+                            const checkbox = document.querySelector(`input[name="dark_pattern_type"][value="${dark_type}"]`);
+                            if (checkbox) {
+                                checkbox.checked = true;
+                            } else {
+                                console.warn(`Checkbox for value "${dark_type}" not found.`);
+                            }
+                        });
+                    } else {
+                        console.error("Unexpected type format:", type);
                     }
                 }
-                return scene;
+            }
+            
+            // Pre-populate already selected dark pattern impact
+            const impact_value = data.value.dark_pattern_impact // Type is an array or a single string
+            console.log("dark_pattern_impact" + impact_value)
+            if (!impact_value) { // Check if type is null, undefined, or false
+                console.warn("dark_pattern_impact is undefined or null.");
+            } else {
+                console.log("Checked answers for dark pattern types are", type);
+                if (typeof impact_value === "string") {
+                    impact_value = [impact_value]; // Convert string to an array
+                }
+
+                if (Array.isArray(impact_value)) { // Ensure impact is an array before using forEach
+                    impact_value.forEach((dark_impact) => {
+                        const checkbox = document.querySelector(`input[name="dark_pattern_impact"][value="${dark_impact}"]`);
+                        if (checkbox) {
+                            checkbox.checked = true;
+                        } else {
+                            console.warn(`Checkbox for value "${dark_impact}" not found.`);
+                        }
+                    });
+                } else {
+                    console.error("Unexpected type format:", impact_value);
+                }
+            }
+
+            const magnitude_value = data.value.dark_pattern_magnitude; // Severity is a string
+            if (!magnitude_value) { // Check if type is null, undefined, or falsy
+                    console.warn("Second statement is undefined or null.");
+            } else {
+                console.log("Checked answer for second statement is", magnitude_value);
+                const magnitudeRadio = document.querySelector(`input[name="magnitude"][value="${magnitude_value}"]`); //Get data
+                magnitudeRadio.checked = true; // Set the radio button as checked
+            }
+
+            return scene;
             }
 
 
@@ -443,18 +375,22 @@
             const urlParams = new URLSearchParams(window.location.search);
             const videoIndex = urlParams.get('videoIndex');
             const dark_pattern_type = document.querySelectorAll('input[name="dark_pattern_type"]:checked');
-            const money_loss = document.querySelector('input[name="money_loss"]:checked');
-            const privacy_loss = document.querySelector('input[name="privacy_loss"]:checked');
-            const cognition_loss = document.querySelector('input[name="cognition_loss"]:checked');
+            const dark_pattern_impact = document.querySelectorAll('input[name="dark_pattern_impact"]:checked');
+            const dark_pattern_magnitude = document.querySelector('input[name="magnitude"]:checked');
+
+            // Get the value of dark_pattern_type
+            const darkPatternType = dark_pattern_type.length > 0
+                ? Array.from(dark_pattern_type).map(checkbox => checkbox.value)
+                : null;
+
+            const darkPatternImpact = dark_pattern_impact.length > 0
+                ? Array.from(dark_pattern_impact).map(checkbox => checkbox.value)
+                : null;
 
             const data = {
-                // dark_exist: userSelection,
-                dark_pattern_type: dark_pattern_type.length > 0 
-                ? Array.from(dark_pattern_type).map(checkbox => checkbox.value) 
-                : null,
-                money_loss: money_loss ? money_loss.value : null,
-                privacy_loss: privacy_loss ? privacy_loss.value : null,
-                cognition_loss: cognition_loss ? cognition_loss.value : null
+                dark_pattern_type: darkPatternType,
+                dark_pattern_impact: darkPatternImpact,
+                dark_pattern_magnitude: dark_pattern_magnitude ?dark_pattern_magnitude.value : null,
             };
 
             return data;
