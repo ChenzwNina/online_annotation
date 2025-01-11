@@ -337,13 +337,8 @@
                 return scene;
             }
 
-            console.log("data_text:", data_text);
-            console.log("data_text_type:", typeof data_text);
-
             const data = JSON.parse(JSON.parse(data_text));
             console.log("Raw Response Body:", data);
-            console.log(typeof data); //
-            console.log(".rater:", data["rater"]);
 
 
             const money_loss_value = data.value.money_loss; // Severity is a string
