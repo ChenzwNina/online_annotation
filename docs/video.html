@@ -252,7 +252,7 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    key: getQueryParameter('videoIndex')
+                    key: getQueryParameter('videoIndex') + getQueryParameter('user')
                 })
             });
 
@@ -422,7 +422,7 @@
                     'Content-Type': 'application/json'
                 },
                 body: JSON.stringify({
-                    key: getQueryParameter('videoIndex'),
+                    key: getQueryParameter('videoIndex') + getQueryParameter('user'),
                     rater: getQueryParameter('user'),
                     value: data
                 })
