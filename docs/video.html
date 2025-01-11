@@ -337,6 +337,9 @@
                 return scene;
             }
 
+            console.log("data_text:", data_text);
+            console.log("data_text_type:", typeof data_text);
+
             const data = JSON.parse(data_text);
             console.log("Raw Response Body:", data);
             console.log(typeof data); //
