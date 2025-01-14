@@ -1090,5 +1090,1097 @@
         "Condition": "Company_Interests_System",
         "Description": "A widget that allows users to log in or register.",
         "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des6_wid1.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des2_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 6,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to log in or register.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des6_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "GPT4o",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/User_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Baseline_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/Company_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 3,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that showcases a discount offer.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des3_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 7,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows customer reviews.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Company_Interests_System/des7_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 4,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that shows product details.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des4_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 0,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays banners with current deals or sales.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Company_Interests_System/des0_wid2.png"
+    },
+    {
+        "Description_number": 12,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays a newsletter signup option.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des12_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 9,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows order tracking information.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des9_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/Baseline_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 5,
+        "Model": "Claude3.5Sonnect",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that shows a shopping cart summary.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/Claude3.5Sonnect/User_Interests_System/des5_wid2.png"
+    },
+    {
+        "Description_number": 11,
+        "Model": "gemini-2.0-flash-exp",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that allows users to cancel a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/gemini-2.0-flash-exp/User_Interests_System/des11_wid2.png"
+    },
+    {
+        "Description_number": 1,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "User_Interests_System",
+        "Description": "A widget that displays a search bar.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/User_Interests_System/des1_wid2.png"
+    },
+    {
+        "Description_number": 8,
+        "Model": "GPT4o",
+        "Condition": "Baseline_System",
+        "Description": "A widget that shows shipping options and optional add-ons.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Baseline_System/des8_wid2.png"
+    },
+    {
+        "Description_number": 10,
+        "Model": "CodeLlama-34b-Instruct",
+        "Condition": "Baseline_System",
+        "Description": "A widget that allows users to sign up for a membership.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/CodeLlama-34b-Instruct/Baseline_System/des10_wid2.png"
+    },
+    {
+        "Description_number": 2,
+        "Model": "GPT4o",
+        "Condition": "Company_Interests_System",
+        "Description": "A widget that displays featured products.",
+        "screenshot_location": "https://raw.githubusercontent.com/ChenzwNina/online_annotation/refs/heads/main/docs/screenshot/GPT4o/Company_Interests_System/des2_wid2.png"
     }
 ]
